@@ -1,0 +1,12 @@
+{
+  "name": "peg",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "EaselJS": "~0.7.1",
+    "TweenJS": "~0.5.1",
+    "SoundJS": "~0.5.1",
+    "hammerjs": "~1.0.1"
+  },
+  "devDependencies": {}
+}
