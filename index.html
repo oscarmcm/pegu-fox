@@ -1,0 +1,102 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Pegu-Fox</title>
+    <meta name="description" content="An ancient puzzle game.">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/add2home.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <meta name="google-site-verification" content="NdTtwSbakc9t65E_3rotKbRjRruYx1mvGwzdOAehJqs" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="oscarmcm">
+        <meta name="twitter:title" content="Pegu-Fox">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:creator" content="">
+        <meta name="twitter:image:src" content="">
+        <meta name="twitter:domain" content="">
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="" />
+        <!--
+        <meta property="fb:admins" content="Facebook numeric ID" />
+        -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Pegu">
+        <link rel="apple-touch-icon" href="images/icon.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="images/icon-72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="images/icon@2x.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="images/icon-72@2x.png" />
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h1 class="title">Pegu-Fox</h1>
+            <p>Un <a href="http://en.wikipedia.org/wiki/Peg_solitaire" target="_blank">Antiguo</a> Juego de Rompecabezas. </p>
+            <!-- <p class="how_to_play"><a href="#" target="_blank">how to play</a></p>-->
+            <p class="instructions"> Por <a href="http://www.oscarmcm.com" target="_blank">Oscar Cortez</a></p>
+            <p class="play"><a href="#">Jugar</a></p>
+            <div id="install_button">
+            INSTALL
+            </div>
+        </header>
+        <div id="info" class="game_asset">
+            <span id="level_name"></span>
+        </div>
+        <div id="buttons" class="game_asset">
+            <a id="refresh" href="#" ><span class="icon-refresh"></span></a>
+            <a id="previous" href="#"><span class="icon-arrow-left"></span></a>
+            <a id="next" href="#" ><span class="icon-uniE601"></span></a>
+            <a id="sharebtn" href="#" ><span class="icon-heart"></span></a>
+            <a id="infobtn" href="#" ><span class="icon-happy"></span></a>
+        </div>
+        <div id="panel" class="game_asset">
+            <span id="textnode"></span>
+        </div>
+        <div id="scoreboard" class="game_asset"><span id="score"></span></div>
+        <div id="canvasHolder"></div>
+    </div>
+    <!-- build:js scripts/vendor.js -->
+
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script async src="http://code.createjs.com/createjs-2013.12.12.min.js"></script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.10/hammer.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/EaselJS/lib/easeljs-0.7.1.combined.js"></script>
+    <script src="bower_components/TweenJS/lib/tweenjs-0.5.1.combined.js"></script>
+    <script src="bower_components/SoundJS/lib/soundjs-0.5.2.combined.js"></script>
+    <script src="bower_components/hammerjs/hammer.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({app,.tmp}) scripts/main.js -->
+
+
+
+    <script src="scripts/libs/add2home.js"></script>
+    <script src="scripts/tile.js"></script>
+    <script src="scripts/grid.js"></script>
+    <script src="scripts/display.js"></script>
+    <script src="scripts/local_storage.js"></script>
+    <script src="scripts/social.js"></script>
+    <script src="scripts/sound.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
