@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?8ngd6w');
+    src: url('fonts/icomoon.eot?#iefix8ngd6w') format('embedded-opentype'), url('fonts/icomoon.woff?8ngd6w') format('woff'), url('fonts/icomoon.ttf?8ngd6w') format('truetype'), url('fonts/icomoon.svg?8ngd6w#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+
+-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow-left:before {
+    content: "\e600";
+}
+.icon-uniE601:before {
+    content: "\e601";
+}
+.icon-adjustments:before {
+    content: "\e01d";
+}
+.icon-gears:before {
+    content: "\e02b";
+}
+.icon-magnifying-glass:before {
+    content: "\e037";
+}
+.icon-heart:before {
+    content: "\e04a";
+}
+.icon-refresh:before {
+    content: "\e05a";
+}
+.icon-happy:before {
+    content: "\e05b";
+}
+.icon-github-square:before {
+    content: "\f092";
+}
+a:link {
+    color: #53324f;
+    text-decoration: none;
+}
+a:visited {
+    color: #53324f;
+}
+a:active {
+    color: #53324f;
+}
+a:hover {
+    color: #f2e0a0;
+}
+#info a, #info a:visited {
+    color: #53324f;
+}
+#info a:hover {
+    color: #f2e0a0;
+}
+#buttons a, #buttons a:visited {
+    color: #53324f;
+}
+#buttons a:hover {
+    color: #f2e0a0;
+}
+html, body {
+    background: rgba(147,206,222,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+body {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    font-weight: 400;
+    color: #53324f;
+    overflow: hidden;
+}
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+header h1 {
+    font-weight: 100;
+    font-size: 90px;
+    padding: 10px;
+    color: #53324f;
+}
+p {
+    width: 50%;
+    padding: 10px 0;
+    font-weight: 100;
+    font-size: 24px;
+    margin: 0 auto;
+}
+p.instructions {
+    font-size: 18px;
+}
+p.play {
+    margin: 30px auto 0px auto;
+}
+.play a {
+    font-size: 60px;
+}
+
+
+.how_to_play{
+    display:none;
+}
+
+.how_to_play a {
+    font-size: 30px;
+}
+#info {
+    font-weight: 100;
+    position: fixed;
+    right: 20px;
+    top: 0;
+    font-size: 20px;
+    padding: 20px 0;
+    color: #53324f;
+    display: none;
+    text-align: right;
+    z-index: 1;
+}
+#buttons {
+    position: fixed;
+    right: 20px;
+    top: 140px;
+    padding: 0px;
+    font-size: 40px;
+    display: none;
+    z-index: 11;
+    width: 250px;
+    text-align: right;
+}
+#panel {
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    font-size: 60px;
+    padding: 20px;
+    color: #53324f;
+    display: none;
+    width: 50%;
+    text-align: left;
+    z-index: 1;
+    font-weight: 100;
+}
+#scoreboard {
+    font-weight: 100;
+    position: fixed;
+    right: 20px;
+    top: 50px;
+    width: 300px;
+    font-size: 30px;
+    padding: 20px 0;
+    color: #53324f;
+    display: none;
+    text-align: right;
+    z-index: 1;
+}
+* {
+    -webkit-user-select: none;
+}
+#scoreboard:active {
+    cursor: crosshair;
+}
+#pegu {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#canvasHolder{
+    position:relative;
+    z-index:10;
+}
+
+
+
+/* iphone 4 */
+@media only screen and (max-width: 960px) {
+    p{
+        width: 100%;
+    }
+    #info {
+        font-size: 25px;
+        padding: 10px 0;
+   }
+   #buttons {
+       font-size: 30px;
+       top: 70px;
+  }
+  #panel {
+      font-size: 40px;
+      left:10px;
+      bottom: 30px;
+      text-align:left;
+ }
+ #scoreboard {
+     font-size: 20px;
+     top:40px;
+     padding: 0px 0;
+}
+}
+/* iphone 5 */
+@media screen and (device-aspect-ratio: 40/71) {
+        p{
+        width: 100%;
+    }
+    #info {
+        font-size: 25px;
+        padding: 10px 0;
+   }
+   #buttons {
+       font-size: 30px;
+        top: 70px;
+  }
+  #panel {
+         font-size: 40px;
+left:10px;
+      bottom: 30px;
+      text-align:left;
+ }
+ #scoreboard {
+     font-size: 20px;
+        top:40px;
+        padding: 0px 0;
+}
+}
